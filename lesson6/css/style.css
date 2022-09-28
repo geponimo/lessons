@@ -49,9 +49,15 @@ line-height: 130%;
    
 }
 
-p, li {
+p {
    font-weight: 400;
    font-size: 16px;
+   line-height: 160%;
+   color: #424551;
+   margin-bottom: 24px;
+}
+li {
+   padding-left: 32px;
    line-height: 160%;
    color: #424551;
 }
@@ -63,8 +69,10 @@ p, li {
    margin-bottom: 24px;
 }
 .quote {
+   padding-left: 58px;
 }
 .list {
+   margin-bottom: 24px;
 }
 .list-item {
 }
