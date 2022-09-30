@@ -129,6 +129,7 @@ footer {
 }
 .good-block {
    position: relative;
+   margin-bottom: 60px;
 }
 .big-red-button {
    display: inline-block;
@@ -171,7 +172,7 @@ footer {
 }
 .big-red-button::before {
    content: "";
-   background: url(../img/palaje.jpg) 0 0 / contain no-repeat;
+   background: url(../img/palaje.jpg) 0 0 / auto 100% no-repeat;
    position: absolute;
    left: 600px;
    top: -35px;
